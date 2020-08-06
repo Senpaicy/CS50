@@ -1,0 +1,27 @@
+pseudocode for mario (less)
+
+                            Part 1:
+
+1. Ask the user for the number of stair cases. (DO)
+2. If the number is not between 1 and 8, then ask again. (WHILE)
+
+                            Part 2:
+
+1. Initialize the number of spaces. (int space = 0)
+2. Make a FOR loop for the number of rows.
+        |
+        |   think of it like this: when you type, you type the 'columns'
+        |   first rather than the rows. columns you press space and rows
+        |   you press enter.
+        |
+3. Make the start value of the for loop to be 1 and you can add one to stairs
+        |
+        |   like: for (int i = 1; i < numberOfStairs + 1; i++)
+        |
+4. Change the value of spaces to be one less than the numberOfStairs
+        |
+        |   space = numberOfStairs - 1
+        |
+5. Print the number of spaces for space times in a WHILE loop.
+6. Print "#", i amount of times in a new FOR loop.
+7. Print a new line, out of the loop.
